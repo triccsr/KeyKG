@@ -1,0 +1,1 @@
+/usr/bin/g++  -std=c++17 -Wall -Wextra -Wconversion -Wshadow -g CMakeFiles/KeyKG_Code.dir/src/bc.cpp.o CMakeFiles/KeyKG_Code.dir/src/main.cpp.o -o KeyKG_Code 

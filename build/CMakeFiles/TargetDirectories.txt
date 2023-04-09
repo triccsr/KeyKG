@@ -1,0 +1,3 @@
+/home/triccsr/Documents/2023-0/GST/code/build/CMakeFiles/KeyKG_Code.dir
+/home/triccsr/Documents/2023-0/GST/code/build/CMakeFiles/edit_cache.dir
+/home/triccsr/Documents/2023-0/GST/code/build/CMakeFiles/rebuild_cache.dir
