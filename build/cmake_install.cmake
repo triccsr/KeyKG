@@ -1,4 +1,4 @@
-# Install script for directory: /home/triccsr/Documents/2023-0/GST/code
+# Install script for directory: /home/triccsr/Documents/2023-0/GST/GSTcode
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/triccsr/Documents/2023-0/GST/code/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/triccsr/Documents/2023-0/GST/GSTcode/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

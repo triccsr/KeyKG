@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/triccsr/Documents/2023-0/GST/code
+CMAKE_SOURCE_DIR = /home/triccsr/Documents/2023-0/GST/GSTcode
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/triccsr/Documents/2023-0/GST/code/build
+CMAKE_BINARY_DIR = /home/triccsr/Documents/2023-0/GST/GSTcode/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -81,14 +81,14 @@ clean: CMakeFiles/KeyKG_Code.dir/clean
 CMakeFiles/KeyKG_Code.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/KeyKG_Code.dir/build.make CMakeFiles/KeyKG_Code.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/KeyKG_Code.dir/build.make CMakeFiles/KeyKG_Code.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/triccsr/Documents/2023-0/GST/code/build/CMakeFiles --progress-num=1,2,3 "Built target KeyKG_Code"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/triccsr/Documents/2023-0/GST/GSTcode/build/CMakeFiles --progress-num=1,2,3 "Built target KeyKG_Code"
 .PHONY : CMakeFiles/KeyKG_Code.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/KeyKG_Code.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/triccsr/Documents/2023-0/GST/code/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/triccsr/Documents/2023-0/GST/GSTcode/build/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/KeyKG_Code.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/triccsr/Documents/2023-0/GST/code/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/triccsr/Documents/2023-0/GST/GSTcode/build/CMakeFiles 0
 .PHONY : CMakeFiles/KeyKG_Code.dir/rule
 
 # Convenience name for target.

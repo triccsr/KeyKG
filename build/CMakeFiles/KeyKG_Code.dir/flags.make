@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/g++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/triccsr/Documents/2023-0/GST/code/include
+CXX_INCLUDES = -I/home/triccsr/Documents/2023-0/GST/GSTcode/include
 
 CXX_FLAGS =  -std=c++17 -Wall -Wextra -Wconversion -Wshadow -g
 

@@ -1,12 +1,12 @@
 [
 {
-  "directory": "/home/triccsr/Documents/2023-0/GST/code/build",
-  "command": "/usr/bin/g++  -I/home/triccsr/Documents/2023-0/GST/code/include  -std=c++17 -Wall -Wextra -Wconversion -Wshadow -g -o CMakeFiles/KeyKG_Code.dir/src/bc.cpp.o -c /home/triccsr/Documents/2023-0/GST/code/src/bc.cpp",
-  "file": "/home/triccsr/Documents/2023-0/GST/code/src/bc.cpp"
+  "directory": "/home/triccsr/Documents/2023-0/GST/GSTcode/build",
+  "command": "/usr/bin/g++  -I/home/triccsr/Documents/2023-0/GST/GSTcode/include  -std=c++17 -Wall -Wextra -Wconversion -Wshadow -g -o CMakeFiles/KeyKG_Code.dir/src/bc.cpp.o -c /home/triccsr/Documents/2023-0/GST/GSTcode/src/bc.cpp",
+  "file": "/home/triccsr/Documents/2023-0/GST/GSTcode/src/bc.cpp"
 },
 {
-  "directory": "/home/triccsr/Documents/2023-0/GST/code/build",
-  "command": "/usr/bin/g++  -I/home/triccsr/Documents/2023-0/GST/code/include  -std=c++17 -Wall -Wextra -Wconversion -Wshadow -g -o CMakeFiles/KeyKG_Code.dir/src/main.cpp.o -c /home/triccsr/Documents/2023-0/GST/code/src/main.cpp",
-  "file": "/home/triccsr/Documents/2023-0/GST/code/src/main.cpp"
+  "directory": "/home/triccsr/Documents/2023-0/GST/GSTcode/build",
+  "command": "/usr/bin/g++  -I/home/triccsr/Documents/2023-0/GST/GSTcode/include  -std=c++17 -Wall -Wextra -Wconversion -Wshadow -g -o CMakeFiles/KeyKG_Code.dir/src/main.cpp.o -c /home/triccsr/Documents/2023-0/GST/GSTcode/src/main.cpp",
+  "file": "/home/triccsr/Documents/2023-0/GST/GSTcode/src/main.cpp"
 }
 ]

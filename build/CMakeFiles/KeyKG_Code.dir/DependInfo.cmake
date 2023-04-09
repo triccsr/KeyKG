@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/triccsr/Documents/2023-0/GST/code/src/bc.cpp" "CMakeFiles/KeyKG_Code.dir/src/bc.cpp.o" "gcc" "CMakeFiles/KeyKG_Code.dir/src/bc.cpp.o.d"
-  "/home/triccsr/Documents/2023-0/GST/code/src/main.cpp" "CMakeFiles/KeyKG_Code.dir/src/main.cpp.o" "gcc" "CMakeFiles/KeyKG_Code.dir/src/main.cpp.o.d"
+  "/home/triccsr/Documents/2023-0/GST/GSTcode/src/bc.cpp" "CMakeFiles/KeyKG_Code.dir/src/bc.cpp.o" "gcc" "CMakeFiles/KeyKG_Code.dir/src/bc.cpp.o.d"
+  "/home/triccsr/Documents/2023-0/GST/GSTcode/src/main.cpp" "CMakeFiles/KeyKG_Code.dir/src/main.cpp.o" "gcc" "CMakeFiles/KeyKG_Code.dir/src/main.cpp.o.d"
   )
 
 # Targets to which this target links.
