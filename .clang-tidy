@@ -1,5 +1,6 @@
-# Generated from CLion Inspection settings
 ---
+
+
 Checks: '-*,
 bugprone-argument-comment,
 bugprone-assert-side-effect,
@@ -146,3 +147,6 @@ readability-static-definition-in-anonymous-namespace,
 readability-string-compare,
 readability-uniqueptr-delete-release,
 readability-use-anyofallof'
+
+
+HeaderFilterRegex: '.*'

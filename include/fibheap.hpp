@@ -27,7 +27,7 @@ class FibNode {
   bool marked{false};
   T value;
   FibNode() = default;
-  explicit FibNode(T v) : value(v) {}
+  explicit FibNode(T v) : value(std::move(v)) {}
 };
 
 template <class T>
@@ -138,38 +138,10 @@ class FibHeap {
       minRoot = node;
     }
   }
-
- public:
-  typedef Node *iterator;
-  void clear() {
-    for (Node *root = firstRoot, *oldRightSibling; root != nullptr; root = oldRightSibling) {
-      oldRightSibling = root->rightSibling;
-      delete_tree(root);
-    }
-    minRoot = firstRoot = nullptr;
-    rootNum = 0;
-  }
-  FibHeap() : maxHeap(false), minRoot(nullptr), firstRoot(nullptr), rootNum(0) {}
-  explicit FibHeap(bool isMaxHeap)
-      : maxHeap(isMaxHeap), minRoot(nullptr), firstRoot(nullptr), rootNum(0) {}
-  ~FibHeap() { clear(); }
-  [[nodiscard]] bool empty() const { return firstRoot == nullptr; }
-
-  iterator push(T value, Node *newNode) {
+  FibNode<T>* push(T value, Node *newNode) {
     *newNode = Node(value);
     insert_root(newNode);
     return newNode;
-  }
-  iterator push(T value) {
-    Node *newNode = new Node(value);
-    insert_root(newNode);
-    return newNode;
-  }
-  T top() const {
-    if (minRoot == nullptr) {
-      throw std::runtime_error("get top from an empty heap");
-    }
-    return minRoot->value;
   }
   void pop(bool deleteMinRoot) {
     if (minRoot == nullptr) {
@@ -211,6 +183,37 @@ class FibHeap {
       }
     }
   }
+
+ public:
+  typedef Node *iterator;
+  void clear() {
+    for (Node *root = firstRoot, *oldRightSibling; root != nullptr; root = oldRightSibling) {
+      oldRightSibling = root->rightSibling;
+      delete_tree(root);
+    }
+    minRoot = firstRoot = nullptr;
+    rootNum = 0;
+  }
+  FibHeap() : maxHeap(false), minRoot(nullptr), firstRoot(nullptr), rootNum(0) {}
+  explicit FibHeap(bool isMaxHeap)
+      : maxHeap(isMaxHeap), minRoot(nullptr), firstRoot(nullptr), rootNum(0) {}
+  ~FibHeap() { clear(); }
+  [[nodiscard]] bool empty() const { return firstRoot == nullptr; }
+
+  iterator push(T value) {
+    Node *newNode = new Node(value);
+    insert_root(newNode);
+    return newNode;
+  }
+  [[nodiscard]] T top() const {
+    if (minRoot == nullptr) {
+      throw std::runtime_error("get top from an empty heap");
+    }
+    return minRoot->value;
+  }
+  void pop() {
+    pop(true);
+  }
   T poll() {
     T ret = top();
     pop(true);
@@ -243,5 +246,4 @@ class FibHeap {
     }
   }
 };
-
 #endif
