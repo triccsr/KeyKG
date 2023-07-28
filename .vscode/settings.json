@@ -1,0 +1,10 @@
+
+{
+    "cmake.debugConfig": {
+        "args": [
+            "/home/triccsr/Documents/2023-0/GST/linkedmdb",
+            "200"
+        ]
+    },
+    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools"
+}
